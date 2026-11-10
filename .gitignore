@@ -1,0 +1,24 @@
+# Build output
+.build/
+.build-*/
+build/
+.swiftpm/
+__pycache__/
+*.pyc
+
+# Local snapshots and backups made before edits
+.backups/
+*.island-backup-*
+
+# Kept on the developer's Mac only: working notes, evidence from real sessions, reverse-engineering
+# notes and packaged builds. They hold personal and machine-specific information.
+docs/
+evidence/
+deliverables/
+CLAUDE.md
+AGENTS.md
+scripts/capture-original-reference.sh
+Tests/test_managed_approval_installer.py
+Tests/e2e/run_managed_install_checks.py
+
+.DS_Store
